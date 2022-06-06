@@ -1,3 +1,5 @@
+package Headlights;
+
 public interface Headlights {
-    String lit();
+    String shine();
 }

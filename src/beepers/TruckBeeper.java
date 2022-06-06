@@ -1,2 +1,8 @@
-package beepers;public class TruckBeeper {
+package beepers;
+
+public class TruckBeeper implements Beeper{
+    @Override
+    public String makeSound() {
+        return "UUUUUU";
+    }
 }

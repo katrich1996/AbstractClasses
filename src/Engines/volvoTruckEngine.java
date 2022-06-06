@@ -1,2 +1,8 @@
-package Engines;public class volvoTruckEngine {
+package Engines;
+
+public class volvoTruckEngine implements Engine{
+    @Override
+    public String getSpeed() {
+        return "RRRRRRRR";
+    }
 }
